@@ -1,0 +1,94 @@
+/* start variables */
+
+/* end variables */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header{
+    padding: 20px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    width: 60px;
+}
+header .container .links{
+    position: relative;
+}
+header .container .links .icon{
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+header .container .links .icon span{
+    background-color: #333;
+    margin-top: 5px;
+    
+}
+header .container .links .icon span:first-child{
+    width: 100%;
+    height: 2px;
+}
+header .container .links .icon span:nth-child(2){
+    width: 50%;
+    height: 2px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+header .container .links .icon:hover span{
+    background-color: #333;
+    margin-top: 5px;
+    
+}
+header .container .links .icon span:last-child{
+    width: 100%;
+    height: 2px;
+}
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    container {
+        width: 560px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    container {
+        width: 750px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    container {
+        width: 970px;
+    }
+}
+
+/* 
+ Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    container {
+        width: 1170px;
+    }
+}
